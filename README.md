@@ -24,9 +24,10 @@ This is a simple web-based survey form that collects user information and displa
 
 1. Clone this repository to your local machine.
 
-   ```shell
-   git clone https://github.com/your-username/survey-form.git
+```bash
+   git clone https://github.com/Praju29/webform.git
 ```
+2.
 Open the index.html file in your web browser to view the survey form.
 
 Fill out the form by providing all the necessary information.
