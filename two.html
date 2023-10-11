@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="two.css">
+</head>
+<body>
+    <h2>Customer Survey Form</h2>
+    <div class="form">
+        <form id="serveyform">
+        <div class="container">
+            <div>
+                <label class="nm">First Name</label>
+                <input type="text" id="fname" required>
+            </div>
+            <div>
+                <label class="nm">Last Name</label>
+                <input type="text" id="lname" required>
+            </div>
+        </div>
+        <div>
+            <label class="nm"for="birthday">Date of birth </label>
+            <input type="date" id="birthday" name="birthday" required>
+        </div>
+        <div class="country">
+            <label class="nm"for="birthday">Country </label>
+            <select name="country" id="country" required>
+                <option value="India">India</option>
+                <option value="Austrelia">Austrelia</option>
+                <option value="US">US</option>
+                <option value="UK">UK</option>
+            </select>      
+        </div>
+        <label class="nm">Gender</label>
+        <input type="checkbox" id="male" name="gender" value="Male">
+        <label class="gender-label" for="male">Male</label>
+        <input type="checkbox" id="female" name="gender" value="Female">
+        <label class="gender-label" for="female">Female</label>
+        <input type="checkbox" id="other" name="gender" value="Other">
+        <label class="gender-label" for="other">Other</label>
+        
+            <label class="nm">Profession</label>
+            <input type="text" id="prof"><br/>
+            <label class="nm">Email</label>
+            <input type="email" id="email"> <br/>
+            <label class="nm">Mobile Number</label>
+            <input type="number" id="number"> <br/>
+
+            <div class="btn">
+                <button type="submit" class="sub" id="submitButton">Submit</button>
+                <button type="button"class="res" id="resetButton">Reset</button>
+            </div>
+        </form>
+    </div>
+    
+    <p class="footer">&copy;2018 Customer Survey Form. All Rights Reserved | Design by <span>Prajkta</span></p>
+
+<div id="popup">
+    <div class="popup-content">
+      <h2>Form Values</h2>
+      <p><strong>First Name:</strong> <span id="popupFirstName"></span></p>
+      <p><strong>Last Name:</strong> <span id="popupLastName"></span></p>
+      <p><strong>Date of Birth:</strong> <span id="popupDob"></span></p>
+      <p><strong>Country:</strong> <span id="popupCountry"></span></p>
+      <p><strong>Gender:</strong> <span id="popupGender"></span></p>
+      <p><strong>Profession:</strong> <span id="popupProfession"></span></p>
+      <p><strong>Email:</strong> <span id="popupEmail"></span></p>
+      <p><strong>Mobile Number:</strong> <span id="popupMobile"></span></p>
+      <button type="button" id="closePopup">Close</button>
+    </div>
+  </div>
+
+  <script src="two.js"></script>
+</body>
+</html>
