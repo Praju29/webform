@@ -9,24 +9,25 @@
 <body>
     <h2>Customer Survey Form</h2>
     <div class="form">
-        <form id="serveyform">
+        <form id="serveyform" onsubmit="return checkBlank()">
         <div class="container">
             <div>
                 <label class="nm">First Name</label>
-                <input type="text" id="fname" required>
+                <input type="text" id="fname" >
             </div>
             <div>
                 <label class="nm">Last Name</label>
-                <input type="text" id="lname" required>
+                <input type="text" id="lname" >
+
             </div>
         </div>
         <div>
             <label class="nm"for="birthday">Date of birth </label>
-            <input type="date" id="birthday" name="birthday" required>
+            <input type="date" id="birthday" name="birthday">
         </div>
         <div class="country">
             <label class="nm"for="birthday">Country </label>
-            <select name="country" id="country" required>
+            <select name="country" id="country">
                 <option value="India">India</option>
                 <option value="Austrelia">Austrelia</option>
                 <option value="US">US</option>
@@ -42,11 +43,11 @@
         <label class="gender-label" for="other">Other</label>
         
             <label class="nm">Profession</label>
-            <input type="text" id="prof"><br/>
+            <input type="text" id="prof" ><br/>
             <label class="nm">Email</label>
-            <input type="email" id="email"> <br/>
+            <input type="email" id="email" > <br/>
             <label class="nm">Mobile Number</label>
-            <input type="number" id="number"> <br/>
+            <input type="text" id="number" pattern="[789][0-9]{9}"> <br/>
 
             <div class="btn">
                 <button type="submit" class="sub" id="submitButton">Submit</button>
@@ -59,7 +60,6 @@
 
 <div id="popup">
     <div class="popup-content">
-      <h2>Form Values</h2>
       <p><strong>First Name:</strong> <span id="popupFirstName"></span></p>
       <p><strong>Last Name:</strong> <span id="popupLastName"></span></p>
       <p><strong>Date of Birth:</strong> <span id="popupDob"></span></p>
