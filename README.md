@@ -27,8 +27,12 @@ This is a simple web-based survey form that collects user information and displa
 ```bash
    git clone https://github.com/Praju29/webform.git
 ```
-2.
-Open the index.html file in your web browser to view the survey form.
+## Running project
+Navigate to the project folder:
+```bash
+cd webform
+```
+Open the two.html file in your web browser to view the survey form.
 
 Fill out the form by providing all the necessary information.
 
@@ -37,3 +41,19 @@ Click the "Submit" button to validate and submit the form.
 If all fields are correctly filled, a popup will appear displaying your submitted values with labels.
 
 Close the popup to reset the form.
+
+### Built With
+HTML
+CSS
+JavaScript
+
+# Pictures
+
+<img width="330" alt="Screenshot 2023-10-11 220241" src="https://github.com/Praju29/webform/assets/134161335/13223ae7-7b36-480a-97fb-65fdf95c9b81">
+<br>
+<img width="334" alt="Screenshot 2023-10-11 220058" src="https://github.com/Praju29/webform/assets/134161335/a0def007-0330-485e-91d7-069414a287f7">
+<br>
+<img width="330" alt="Screenshot 2023-10-11 220241" src="https://github.com/Praju29/webform/assets/134161335/dc57a4fc-03e8-4617-adf0-b971eec48a6f">
+
+
+
