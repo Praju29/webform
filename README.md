@@ -49,7 +49,8 @@ JavaScript
 
 # Pictures
 
-<img width="330" alt="Screenshot 2023-10-11 220241" src="https://github.com/Praju29/webform/assets/134161335/13223ae7-7b36-480a-97fb-65fdf95c9b81">
+<img width="329" alt="Screenshot 2023-10-11 220013" src="https://github.com/Praju29/webform/assets/134161335/24037e45-b1c5-47ca-871a-b89b7db4acc8">
+
 <br>
 <img width="334" alt="Screenshot 2023-10-11 220058" src="https://github.com/Praju29/webform/assets/134161335/a0def007-0330-485e-91d7-069414a287f7">
 <br>
